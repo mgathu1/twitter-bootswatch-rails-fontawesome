@@ -10,8 +10,14 @@ module Twitter
             :after => 'less-rails.after.load_config_initializers',
             :group => :all do |app|
 
-              app.config.assets.paths << File.join(config.root, 'vendor', 'toolkit')
-              app.config.less.paths << File.join(config.root, 'vendor', 'toolkit')
+              paths = %W[
+                #{File.join(config.root, 'vendor', 'toolkit')}
+              ]
+
+              paths.each do |p|
+                app.config.assets.paths << p
+                app.config.less.paths << p
+              end
 
             end
 

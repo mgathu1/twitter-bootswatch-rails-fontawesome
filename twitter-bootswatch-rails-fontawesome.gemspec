@@ -11,13 +11,13 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version = '>= 1.8.11'
   spec.authors       = ["Scott V. Rosenthal"]
   spec.email         = ["sr7575@gmail.com"]
-  spec.description   = %q{twitter-bootswatch-rails-fontawesome is a gem extension for twitter-bootswatch-rails 2.3.2 gem that adds Font Awesome toolkit for Rails 3.1+ Asset Pipeline with less-rails}
-  spec.summary       = %q{twitter-bootswatch-rails-fontawesome integrates the Font Awesome toolkit into the twitter-bootswatch-rails 2.3.2 gem for Rails 3.1+ Asset Pipeline with less-rails}
+  spec.description   = %q{FontAwesome toolkit for twitter-bootswatch-rails gem for Rails Asset Pipeline with less-rails}
+  spec.summary       = %q{twitter-bootswatch-rails-fontawesome integrates the Font Awesome toolkit into the twitter-bootswatch-rails gem for Rails Asset Pipeline with less-rails}
   spec.homepage      = "https://github.com/scottvrosenthal/twitter-bootswatch-rails-fontawesome"
-  spec.license       = "MIT"
+  spec.license       = 'MIT'
   spec.licenses      = ['MIT', 'GPL-2']
 
-  spec.files = Dir["lib/generators/**/*"] + Dir["lib/twitter/**/*"] + Dir["vendor/**/*"] + ["lib/twitter-bootswatch-rails-fontawesome.rb"]
+  spec.files = Dir["lib/twitter/**/*"] + Dir["lib/generators/**/*"] + Dir["app/**/*"] + Dir["vendor/**/*"] + ["lib/twitter-bootswatch-rails-fontawesome.rb"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
