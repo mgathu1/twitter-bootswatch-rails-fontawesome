@@ -11,7 +11,7 @@
 ```ruby
 
 gem 'twitter-bootswatch-rails', '~> 3.0'
-gem 'twitter-bootswatch-rails-fontawesome', '~> 4.0'
+gem 'twitter-bootswatch-rails-fontawesome', '~> 4.2'
 
 gem 'twitter-bootswatch-rails-helpers'
 ```
