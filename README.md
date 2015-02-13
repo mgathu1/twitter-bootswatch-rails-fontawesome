@@ -1,4 +1,4 @@
-## Font Awesome 4.0.3 Bootswatch Rails gem
+## Font Awesome 4.2.0 Bootswatch Rails gem
 
 [![Build Status](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-fontawesome.png?branch=master)](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-fontawesome)
 
@@ -11,7 +11,7 @@
 ```ruby
 
 gem 'twitter-bootswatch-rails', '~> 3.0'
-gem 'twitter-bootswatch-rails-fontawesome', '~> 4.0'
+gem 'twitter-bootswatch-rails-fontawesome', '~> 4.2'
 
 gem 'twitter-bootswatch-rails-helpers'
 ```
@@ -73,7 +73,7 @@ If you had an existing admin bootswatch theme here's the contents of admin/font-
 // --------------------------
 
 @fa-css-prefix:       fa;
-@fa-version:          "4.0.3";
+@fa-version:          "4.2.0";
 @fa-border-color:     #eee;
 @fa-inverse:          #fff;
 @fa-li-width:         (30em / 14);
@@ -118,5 +118,5 @@ Then in the [theme_name] css file just do the following:
 
 ## Changelog
 
-  - v4.0.3.0
-    * Updated to use Font Awesome v4.0.3
+  - v4.2.0.0
+    * Updated to use Font Awesome v4.2.0
