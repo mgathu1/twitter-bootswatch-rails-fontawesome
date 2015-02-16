@@ -2,7 +2,7 @@ module Twitter
   module Bootswatch
     module Rails
       module Fontawesome
-        VERSION = '4.2.0.0'
+        VERSION = '4.3.0.0'
       end
     end
   end

@@ -1,4 +1,4 @@
-## Font Awesome 4.2.0 Bootswatch Rails gem
+## Font Awesome 4.3.0 Bootswatch Rails gem
 
 [![Build Status](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-fontawesome.png?branch=master)](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-fontawesome)
 
@@ -10,8 +10,8 @@
 
 ```ruby
 
-gem 'twitter-bootswatch-rails', '~> 3.0'
-gem 'twitter-bootswatch-rails-fontawesome', '~> 4.2'
+gem 'twitter-bootswatch-rails', '~> 3.3'
+gem 'twitter-bootswatch-rails-fontawesome', '~> 4.3'
 
 gem 'twitter-bootswatch-rails-helpers'
 ```
@@ -29,7 +29,7 @@ Run bundle from command line
 
 ## Usage defaults
 
-To add Font Awesome to your [Bootswatch Rails](https://github.com/scottvrosenthal/twitter-bootswatch-rails/tree/2.3.2) project:
+To add Font Awesome to your [Bootswatch Rails](https://github.com/scottvrosenthal/twitter-bootswatch-rails) project:
 
 In application.css or [theme_name] css file just do the following:
 
@@ -73,7 +73,7 @@ If you had an existing admin bootswatch theme here's the contents of admin/font-
 // --------------------------
 
 @fa-css-prefix:       fa;
-@fa-version:          "4.2.0";
+@fa-version:          "4.3.0";
 @fa-border-color:     #eee;
 @fa-inverse:          #fff;
 @fa-li-width:         (30em / 14);
@@ -82,17 +82,18 @@ If you had an existing admin bootswatch theme here's the contents of admin/font-
 // Imports
 // --------------------------
 
-@import "fontawesome/mixins";
-@import "fontawesome/path";
-@import "fontawesome/core";
-@import "fontawesome/larger";
-@import "fontawesome/fixed-width";
-@import "fontawesome/list";
-@import "fontawesome/bordered-pulled";
-@import "fontawesome/spinning";
-@import "fontawesome/rotated-flipped";
-@import "fontawesome/stacked";
-@import "fontawesome/icons";
+@import "variables.less";
+@import "mixins.less";
+@import "path.less";
+@import "core.less";
+@import "larger.less";
+@import "fixed-width.less";
+@import "list.less";
+@import "bordered-pulled.less";
+@import "animated.less";
+@import "rotated-flipped.less";
+@import "stacked.less";
+@import "icons.less";
 ```
 
 Then in the [theme_name] css file just do the following:
@@ -118,5 +119,5 @@ Then in the [theme_name] css file just do the following:
 
 ## Changelog
 
-  - v4.2.0.0
-    * Updated to use Font Awesome v4.2.0
+  - v4.3.0.0
+    * Updated to use Font Awesome v4.3.0
