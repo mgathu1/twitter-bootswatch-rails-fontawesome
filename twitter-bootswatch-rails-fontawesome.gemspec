@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency             'railties', '>= 3.1', '< 5.0'
-  spec.add_dependency             'less-rails', '~> 2.4'
+  spec.add_dependency             'less-rails', '~> 3.0'
 
   spec.add_dependency             'twitter-bootswatch-rails', '~> 3.3', '>= 3.3.2'
 
